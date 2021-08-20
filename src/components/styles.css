@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: white;
+}
+.body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.backgroundImg{
+    position:relative;
+    background-image: url(../images/background2.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width:100%;
+    box-shadow:inset  0 0 0 2000px rgba(0, 0, 0, 0.7);
+}
+.flexContainer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+
+}
+
+.sign{
+    height: 45px;
+    width: 90px;
+    background-color: #dd0611;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    margin: 30px 10px 0 0;
+}
+.sign:hover{
+    background-color: #ffffff;
+    color: #dd0611;
+
+}
+.logoImg{
+    width: 140px;
+}
+
+.movies{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 40px;
+    box-sizing: border-box;
+}
+@media (max-width: 1200px){
+.movies {
+    padding: 40px 30px;
+}
+
+}
+.movies2{
+    padding:0;
+}
+.movieListImg{
+    width: 210px;
+    margin: 10px 30px 50px;
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}  
+.movieListImg:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.eachMovie{
+    margin: 0 0 40px;
+}
+.addFav{
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.favText{
+    border: none;
+    outline: none;
+    padding: 14px;
+    font-size: 18px;
+    background-color: #dd0611;
+    color: white;
+    border-radius: none;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.favText:hover{
+    color: #dd0611;
+    background-color: white;
+}
+
+.loginForm {
+    background: white;
+    width: 40%;
+    border-radius: 3px;
+    padding: 10px 20px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.title{
+color: #dd0611;
+font-size: 1.85rem;
+margin-top: 10px;
+margin-bottom: 10px;
+font-weight: 500;
+}
+.formInput {
+    color: black;
+    background-color: #fff;
+    box-sizing: border-box;
+    outline: none;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #989c9e;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.submitButton{
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    padding: 14px;
+    background-color: #dd0611;
+    color: white;
+    border-radius: none;
+    margin-top: 20px;
+}
+.submitButton:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+
+.background{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    margin: 20px 0;
+
+}
+.size{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.login {
+    width: 40%;
+    background: white;
+    border-radius: 3px;
+    padding: 10px 20px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 900px) {
+    .login, .loginForm {
+        width: 80%;
+    }
+        .logoImg{
+            width: 100px;
+        }
+    .background{
+    padding: 120px 0;
+    height: auto;
+}}
+.img{
+    width: 100%;
+}
+.detailsColor{
+    color: white;
+    margin: 0 50px;
+}
+.eachMovie1{
+    margin: 40px;
+}
+.loaderDiv{
+    color: black;
+    height: 100vh;
+    margin: 20% auto;
+}
